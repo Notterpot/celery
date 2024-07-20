@@ -50,11 +50,11 @@
 			}
 		});
 		function GetEditorContent() {
-            return window.editor.getValue();
+            return JSON.stringify(window.editor.getValue());
         }
 
         function SetEditorContent(content) {
-            window.editor.setValue(content);
+            window.editor.setValue(JSON.parse(content));
         }
 
 		// API
