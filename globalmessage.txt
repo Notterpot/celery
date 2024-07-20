@@ -1,1 +1,1 @@
-foregroundss
+if you have any issues with injecting locate debug.txt and change its value to true
